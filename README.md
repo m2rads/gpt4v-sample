@@ -10,6 +10,13 @@ pip install -r requirements.txt
 ## Description:
 Currently this repo consists of 3 python scripts. stream.py is a simple opencv script that captures frames and store them inside frames folder. frame-selection.py is a similar script but it is a little bit more efficient in capturing frames. It only saves a frame when there is a significant change in frames. And lastly, hello.py reads the frame and hits open ai for interpretation.
 
+## Setup your env:
+Refer to the env.example for reference. Run the following in your CLI. 
+
+```
+export OPEN_AI_KEY=your_open_ai_key
+```
+
 
 ## Run the app:
 
