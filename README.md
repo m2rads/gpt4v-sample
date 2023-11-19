@@ -34,3 +34,6 @@ python hello.py
 
 ## Areas for improvement:
 I am still working on a more efficient way for selecting frames. One way to make it more efficient is to define a ROI (Region of Interest). By defining a ROI, we will only detect frame selection algorithm on the region of interest. This reduces the number of frames sent to openai by a significant amount which saves a lot of computation and money. 
+
+## PS: 
+better.py is still under development but it provides a efficient way to process video frames as described above. 
