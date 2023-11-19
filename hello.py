@@ -32,29 +32,3 @@ req_payload = payload(encoded_image)
 response = openai_helper.hit_openai(req_payload)
 
 print(response)
-
-
-
-
-# def main(): 
-
-#     while True: 
-#         # path to your image
-#         img_path = os.path.join(os.getcwd(), "./frames/frame.jpg")
-
-#         # getting the base64 encoding 
-#         base64_img = encode_img(img_path)
-
-#         # analyze posture
-#         print("openai is calculating :)")
-#         latex = hit_openai(base64_img)
-
-#         print("openai returned")
-#         print(latex)
-
-#         # wait for 5 sec 
-#         time.sleep(5)
-
-
-# if __name__ == "__main__":
-#     main()
