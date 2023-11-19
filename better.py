@@ -16,7 +16,7 @@ if not stream.isOpened():
     raise IOError("Cannot open webcam")
 
 # Capture initial frames for object detection
-NUM_INITIAL_FRAMES = 5  # Define how many initial frames you want to capture
+NUM_INITIAL_FRAMES = 5 
 initial_frames = []
 for _ in range(NUM_INITIAL_FRAMES):
     ret, frame = stream.read()
