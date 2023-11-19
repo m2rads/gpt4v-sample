@@ -14,7 +14,7 @@ Currently this repo consists of 3 python scripts. stream.py is a simple opencv s
 Refer to the env.example for reference. Run the following in your CLI. 
 
 ```
-export OPEN_AI_KEY=your_open_ai_key
+export OPENAI_API_KEY=your_open_ai_key
 ```
 
 
