@@ -31,7 +31,7 @@ while True:
     frame = cv2.cvtColor(np.array(resized_img), cv2.COLOR_RGB2BGR)
 
     # Save the frame as an iamge and keep overwriting
-    print("Calculating your calculation")
+    print("openai is calculation :)")
     path = f"./{folder}/frame.jpg"
     cv2.imwrite(path, frame)
     cv2.imshow("Webcam", frame)

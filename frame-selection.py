@@ -14,7 +14,7 @@ last_frame_gray = cv2.cvtColor(last_frame, cv2.COLOR_BGR2GRAY)
 image_width = int(stream.get(cv2.CAP_PROP_FRAME_WIDTH))  # Get width from the stream
 image_height = int(stream.get(cv2.CAP_PROP_FRAME_HEIGHT)) # Get height from the stream
 num_pixels = image_width * image_height
-percent_change = 0.03  # 1% change
+percent_change = 0.03  # 3% change
 threshold = num_pixels * percent_change * 255
 
 while True:

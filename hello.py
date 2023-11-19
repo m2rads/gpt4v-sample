@@ -58,7 +58,7 @@ def main():
         base64_img = encode_img(img_path)
 
         # analyze posture
-        print("openai is calculating")
+        print("openai is calculating :)")
         latex = hit_openai(base64_img)
 
         print("openai returned")
