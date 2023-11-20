@@ -11,7 +11,7 @@ def payload(base64_img):
             "content": [
                 {
                     "type": "text", 
-                    "text": "Analyze the provided image and locate the iphone. Return the coordinates of the iphone in a structured format. Provide the top-left corner, bottom-right corner coordinates and orientation in the format: 'Top-left: (x1, y1), Bottom-right: (x2, y2), Orientation: value'. Also, describe its orientation as either 'horizontal' or 'vertical'."
+                    "text": "Analyze the provided image and locate the iphone. Can you tell me the coordinates of the object."
                 },
                 {
                     "type": "image_url",
