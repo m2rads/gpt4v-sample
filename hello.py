@@ -11,7 +11,7 @@ def payload(base64_img):
             "content": [
                 {
                     "type": "text", 
-                    "text": "Analyze the provided image and locate the iphone. Can you tell me the coordinates of the object."
+                    "text": "This is a Sony headphone model WH-CH720N. Explain the specs of this headphone and tell me wether it has noise cancelling?"
                 },
                 {
                     "type": "image_url",
